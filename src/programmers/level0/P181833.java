@@ -57,11 +57,5 @@ public class P181833 {
             }
         }
         return answer;
-    }
-
-    public static void main(String[] args) {
-        P181833 p = new P181833();
-
-        p.solution(3);
-    }
+   }
 }

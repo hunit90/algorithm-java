@@ -35,4 +35,5 @@ public class P120846 {
         P120846 p = new P120846();
         p.solution(10);
     }
+
 }

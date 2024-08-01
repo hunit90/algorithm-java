@@ -1,5 +1,6 @@
 package practice;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
@@ -24,8 +25,21 @@ N개의 정수를 입력받아, 자신의 바로 앞 수보다 큰 수만 출력
  */
 public class P0201 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
+        Scanner scanner = new Scanner(System.in);
+
+        int N = scanner.nextInt();
+
+        int[] numbers = new int[N];
+        for (int i = 0; i < N; i++) {
+            numbers[i] = scanner.nextInt();
+        }
+
+        System.out.print(numbers[0] + " ");
+
+        for (int i = 1; i < N; i++) {
+            if (numbers[i] > numbers[i - 1]) {
+                System.out.print(numbers[i] + " ");
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class P01 {
+public class P0101 {
     public static int solution(String a, char b) {
         int answer = 0;
         b = Character.toLowerCase(b);

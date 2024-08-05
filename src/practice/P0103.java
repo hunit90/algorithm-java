@@ -1,9 +1,8 @@
 package practice;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class P03 {
+public class P0103 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();

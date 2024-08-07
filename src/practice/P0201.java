@@ -30,6 +30,7 @@ public class P0201 {
         int N = scanner.nextInt();
 
         int[] numbers = new int[N];
+
         for (int i = 0; i < N; i++) {
             numbers[i] = scanner.nextInt();
         }

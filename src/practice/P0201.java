@@ -35,8 +35,6 @@ public class P0201 {
             numbers[i] = scanner.nextInt();
         }
 
-        System.out.print(numbers[0] + " ");
-
         for (int i = 1; i < N; i++) {
             if (numbers[i] > numbers[i - 1]) {
                 System.out.print(numbers[i] + " ");
